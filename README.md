@@ -50,7 +50,7 @@ The following shows the basic folder structure.
 
 ### Test
 
-- cd SCL-LLE_code
+- cd SCL-LLE
 
 
 ```
@@ -61,7 +61,7 @@ The script will process the images in the sub-folders of "test_data" folder and 
 
 ### Train
 
-1. cd SCL-LLE_code
+1. cd SCL-LLE
 2. download the [Cityscapes](https://www.cityscapes-dataset.com/) dataset
 3. download the cityscapes training data <a href="https://drive.google.com/file/d/1FzYwO-VRw42vTPFNMvR28SnVWpIVhtmU/view?usp=sharing">google drive</a> and contrast training data <a href="https://drive.google.com/file/d/1A2VWyQ9xRXClnggz1vI-7WVD8QEdKJQX/view?usp=sharing">google drive</a> 
 4. unzip and put the downloaded "train" folder and "Contrast" folder to "datasets/data/cityscapes/leftImg8bit" folder and "datasets/data" folder
