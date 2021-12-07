@@ -62,9 +62,10 @@ The script will process the images in the sub-folders of "test_data" folder and 
 ### Train
 
 1. cd SCL-LLE_code
-2. put the  Cityscapes dataset (after adjusting the brightness) and Negative/Positive samples (selected from SICE dataset) folders into "cityscapes"  and "Contrast" folders
+2. download the [Cityscapes](https://www.cityscapes-dataset.com/) dataset
 3. download the training data <a href="https://drive.google.com/file/d/1FzYwO-VRw42vTPFNMvR28SnVWpIVhtmU/view?usp=sharing">google drive</a>
 4. unzip and put the downloaded "train" folder to "datasets/data/cityscapes/leftImg8bit" folder
+5. 
 
 
 ```
