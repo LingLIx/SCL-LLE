@@ -6,7 +6,7 @@ Low-light image enhancement (LLE) remains challenging due to the unfavorable pre
 
 ## Results
 - Comparison of SCL-LLE and the state-of-the-art methods over VV and DICM datasets with zoom-in regions.
-  ![image-20210907163635797](.\VQ.png)
+  ![image-20210907163635797](VQ.png)
 
 ## Experiment
 
