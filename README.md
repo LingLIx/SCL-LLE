@@ -5,9 +5,9 @@ Low-light image enhancement (LLE) remains challenging due to the unfavorable pre
 ****
 
 ## Network
-- Overall architecture of our proposed SCL-LLE. It includes a low-light image enhancement network, a contrastive learning module and a semantic segmentation module.
-- 
+
   ![image-20210907163635797](network.png)
+  - Overall architecture of our proposed SCL-LLE. It includes a low-light image enhancement network, a contrastive learning module and a semantic segmentation module.
 
 ## Experiment
 
