@@ -72,3 +72,6 @@ The script will process the images in the sub-folders of "test_data" folder and 
 ```
 python train.py
 ```
+
+## Contact
+If you have any questions, please contact liling@nuaa.edu.cn
