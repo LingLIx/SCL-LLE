@@ -74,4 +74,4 @@ python train.py
 ```
 
 ## Contact
-If you have any questions, please contact liling@nuaa.edu.cn
+If you have any question, please contact liling@nuaa.edu.cn
