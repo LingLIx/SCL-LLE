@@ -408,14 +408,7 @@ def main():
 
             if (cnt % 1300)==0:
                 torch.save(DCE_net.state_dict(), opts.snapshots_folder + "Epoch" + str(cnt/1300) + '.pth')
-
-            
-            if (cur_itrs) % 10 == 0:
-                interval_loss = interval_loss/10
-                print("Epoch %d, Itrs %d/%d, Loss=%f" %
-                      (cur_epochs, cur_itrs, opts.total_itrs, interval_loss))
-                interval_loss = 0.0
-            
+       
             if cur_itrs >=  opts.total_itrs:
                 return
 
