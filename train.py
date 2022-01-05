@@ -324,7 +324,7 @@ def main():
 
     pathL = "./datasets/data/Contrast/low/"  # negative samples
     pathDirL = os.listdir(pathL)
-    pathGT = "./datasets/data/Contrast/high/"  #positive samples
+    pathGT = "./datasets/data/Contrast/GT/"  #positive samples
     pathDirGT = os.listdir(pathGT)
     picknumber = 2
     interval_loss = 0
