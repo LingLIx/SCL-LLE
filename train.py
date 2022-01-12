@@ -370,11 +370,11 @@ def main():
             enhanced_image_1,enhanced_image,A  = DCE_net(images)
             
             Loss_TV = 200*L_TV(A)		
-            loss_col = torch.mean(L_color(enhanced_image))
+            loss_col = 8*torch.mean(L_color(enhanced_image))
             loss_segexp = torch.mean(L_segexp(enhanced_image, labels))
             loss_percent = torch.mean(L_percept(images,enhanced_image))
-            loss_cont = torch.mean(max(L_con(enhanced_image, GT) -L_con(enhanced_image,L) + 0.3 ,L_con(L, enhanced_image)-L_con(L, enhanced_image)))
-            loss_cont2 = torch.mean(max(L_const(enhanced_image, GT) -L_const(enhanced_image,L) + 0.04 ,L_con(L, enhanced_image)-L_con(L, enhanced_image)))
+            loss_cont = 10*torch.mean(max(L_con(enhanced_image, GT) -L_con(enhanced_image,L) + 0.3 ,L_con(L, enhanced_image)-L_con(L, enhanced_image)))
+            loss_cont2 = 5*torch.mean(max(L_const(enhanced_image, GT) -L_const(enhanced_image,L) + 0.04 ,L_con(L, enhanced_image)-L_con(L, enhanced_image)))
             
 
 
