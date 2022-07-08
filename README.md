@@ -72,6 +72,19 @@ The script will process the images in the sub-folders of "test_data" folder and 
 ```
 python train.py
 ```
+## Cite
+If you find our work useful in your research please consider citing our paper:
+```
+@inproceedings{liang2022semantically,
+  title={Semantically contrastive learning for low-light image enhancement},
+  author={Liang, Dong and Li, Ling and Wei, Mingqiang and Yang, Shuo and Zhang, Liyan and Yang, Wenhan and Du, Yun and Zhou, Huiyu},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={36},
+  number={2},
+  pages={1555--1563},
+  year={2022}
+}
+```
 
 ## Contact
 If you have any question, please contact liling@nuaa.edu.cn
